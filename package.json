@@ -1,0 +1,11 @@
+{
+  "name": "ssh_trap",
+  "version": "1.0.0",
+  "description": "Trap for ssh connections",
+  "main": "index.js",
+  "author": "PolarizedIons <polarizedions@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ssh2": "^0.8.2"
+  }
+}
