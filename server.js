@@ -49,7 +49,7 @@ new ssh2.Server(serverOpts, (client) => {
         console.log('[STATUS] Client disconnected');
     });
 })
-.listen(process.env.PORT || 2222, '127.0.0.1', function() {
+.listen(process.env.PORT || 2222, '0.0.0.0', function() {
     console.log('[SERVER] Listening on port ' + this.address().port);
 });
 
